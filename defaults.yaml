@@ -1,0 +1,11 @@
+---
+username: john
+password: cisco
+connection_options:
+    netmiko:
+        extras: {"fast_cli": True}
+    scrapli:
+        extras:
+          transport: ssh2
+          ssh_config_file: True
+          auth_strict_key: False
